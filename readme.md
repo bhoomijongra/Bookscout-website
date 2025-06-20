@@ -60,7 +60,7 @@ To create a user-friendly platform that enables book enthusiasts to easily locat
 
 ## 🚀 Live Demo
 
-🔗 [Click to View Website](bookscout-website.vercel.app)
+🔗 [Click to View Website](https://website-bhoomijongra.vercel.app/)
 
 ---
 

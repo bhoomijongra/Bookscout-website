@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookscout website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#popular-books">Services</a></li>
+            <li class="item"><a href="#Contact">Contact Us</a></li>
+    </ul>
+    <button class="btn">
+        <a href="login.html">Sign Up or Login</a>
+    </button>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to Bookscout</h1>
+        <p>Your guide to finding books across Pune’s best bookshops!</p>
+        <p>BookScout was started with the vision to make books easily accessible for everyone. We believe in the power of reading to unlock ideas and transform lives. Our mission is to connect people with the books they need, quickly and efficiently.</p>
+    </section>
+    <section>
+        <div class="search-section">
+            <label for="bookName">Search for a book:</label>
+            <div class="search-bar">
+                <input type="text" id="bookName" placeholder="Enter book name..." autocomplete="off">
+                <button class="button" onclick="searchBook()">Search</button>
+            </div>
+            <div id="suggestions" class="suggestions-box"></div>
+        </div>
+
+        <div id="results">
+            <!-- Search results will appear here -->
+        </div>
+    </section>
+    <!-- Popular books displayed -->
+<section class="popular-books" id="popular-books">
+    <h2>Popular Books</h2>
+    <div class="book" data-title="Under the Dome" data-category="fiction" data-author="Stephen King">
+        <img src="https://imgs.search.brave.com/nD-GficojeJ0RAi0AqzBNoibRrJt0p2ubg5iL5K-Abk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXM0LnBlbmd1aW5y/YW5kb21ob3VzZS5j/b20vY292ZXIvOTc4/MTc4ODE3MTgyMw" alt="Under the Dome">
+        <p>Good Vibes Good Life
+        </p>
+        
+    </div>
+    <div class="book" data-title="The Kite Runner" data-category="fiction" data-author="Khaled Hosseini">
+        <img src="https://th.bing.com/th/id/OIP.16aZmdjT01t2Mybn0vu83wAAAA?rs=1&pid=ImgDetMain" alt="The Kite Runner.">
+        <p>The Kite Runner</p>
+        
+    </div>
+<div class="book" data-title="Pride and Prejudice" data-category="fiction" data-author="Jane Austin">
+        <img src="https://cdn2.penguin.com.au/covers/original/9780141330167.jpg" alt="Pride and Prejudice">
+        <p>Pride and Prejudice</p>
+        
+    </div>
+<div class="book" data-title="The Alchemist" data-category="fiction" data-author="Paulo Coelho">
+        <img src="https://imgs.search.brave.com/obA6SU9857BUoJaRXIKYyn5Sv7TwfHos1FCTIr3XAjo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMwMS5ueXQuY29t/L2ltYWdlcy8yMDEw/LzA3LzA2L2FydHMv/YWxjaGVtaXN0L2Fs/Y2hlbWlzdC1hcnRp/Y2xlSW5saW5lLmpw/Zw" alt="The Alchemist">
+        <p>The Alchemist</p>
+        
+    </div>
+
+
+    <!-- More book entries... -->
+</section>
+    <section  id="Contact">
+    <h2>Get in Touch</h2>
+    <p>If you have any questions or feedback, feel free to reach out to us.</p>
+    <p>Email: support@bookscout.com</p>
+    <p>Phone: +1234567890</p>
+     </section>
+    <footer>
+        <p>&copy; 2024 BookWorld. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

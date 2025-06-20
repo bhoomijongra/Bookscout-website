@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookscout</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="script" href="register.js" >
+</head>
+<body>
+    <header>
+        <div class="logo">Bookscout</div>
+        <nav>
+ <a href="owner.html"><button class="login-btn"> Admin Login</button>
+</a> |<a href="login.html"><button class="login-btn">Login</button>
+</a>
+
+            <ul class="nav-icons">
+                <li><a href=""><i class="icon-heart"></i></a></li>
+                <li><a href=""><i class="icon-cart"></i></a></li>
+                <li><a href=""><i class="icon-profile"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="signup-container">
+            <form name="signupForm" class="signup-form" onsubmit="return validateForm()">
+    <h2>Signup</h2>
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="email" placeholder="Email address" name="email" required>
+    <input type="password" placeholder="Password" name="password" required>
+    <label>
+        <input type="checkbox" name="terms" required> I accept all terms and conditions.
+    </label>
+    <button type="submit">Create New Account </button>
+    <p>Already have an account? <a href="login.html">Login</a></p>
+</form>
+        </div>
+    </main>
+</body>
+</html>

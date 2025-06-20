@@ -60,7 +60,7 @@ To create a user-friendly platform that enables book enthusiasts to easily locat
 
 ## 🚀 Live Demo
 
-🔗 [Click to View Website](https://bookscout-website-git-main-bhoomijongras-projects.verce.app/)
+🔗 [Click to View Website](https://bookscout-website.vercel.app/)
 
 ---
 

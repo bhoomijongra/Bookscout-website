@@ -5,9 +5,9 @@ Welcome to BookScout, a smart platform that helps book lovers discover nearby bo
 BookScout was developed by a team of four BCA students as part of a project-based learning initiative. It combines web development with real-world utility — helping users find physical bookstores and promoting offline reading.
 
 👥 Team Members (Group 8)
-Bhoomi Jongra
-Bhoomi Pote
-Vaishnavi Pachfule
+Bhoomi Jongra,
+Bhoomi Pote,
+Vaishnavi Pachfule,
 Samriddhi Maheshwari
 🎯 Objective
 To create a user-friendly platform that enables book enthusiasts to easily locate nearby bookstores that stock their desired books.
